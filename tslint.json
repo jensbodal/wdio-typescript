@@ -1,0 +1,13 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-airbnb",
+    "tslint-eslint-rules",
+    "tslint-no-unused-expression-chai",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "no-floating-promises": true
+  }
+}

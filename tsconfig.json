@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["src/*"]
+    },
+    "outDir": "./build/dist",
+    "target": "es5",
+    "module": "commonjs",
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "types": ["node", "webdriverio", "@wdio/mocha-framework"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "build"]
+}
